@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device/width, initial scale=1">
-    <link rel="icon" href="./eminemIcon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/eminemIcon.png">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Eminem</title>
   </head>
   <body>
@@ -20,9 +21,23 @@
       </nav>
     </header>
 
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/eminem.jpg" class="d-block w-100" alt="eminem">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/landscape.jpeg" class="d-block w-100" alt="eminem Landscape">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/hailie.jpeg" class="d-block w-100" alt="hailie">
+        </div>
+      </div>
+    </div>
+
     <section class="slider">
       <main>
-        <a href="story.html"><!--<img src="./images/landscape.jpeg" alt="Eminem landscape">--><img src="./images/eminem.jpg" alt="eminem"></a>
+        <a href="story.html"><img src="./images/eminem.jpg" alt="eminem"></a>
         <h2>Eminem story</h2>
         <p>Mathers had a difficult childhood, marked by allegations of abuse. At age 14 he began rapping in clubs in Detroit, Michigan, and, he quit school, determined to make it in hip-hop music.</p>
         <button>Learn more</button>
@@ -58,5 +73,6 @@
     <footer>
       <small>2023</small>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
