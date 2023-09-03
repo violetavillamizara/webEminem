@@ -1,0 +1,35 @@
+.first-view{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.main-text h2 p{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    color: white;
+    font-size: 5rem;
+}
+.main-button{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.multimedia .music{
+    display: block;
+    justify-content: center;
+}
+
+#top1{
+    width: 50px;
+    height: 50px;
+}
+
+
+#spotify{
+    text-align: center;
+}

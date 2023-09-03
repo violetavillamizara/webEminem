@@ -1,0 +1,28 @@
+body{
+    background-color: #DCE0D9;
+}
+
+.content{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.text{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    color: white;
+    font-size: 5rem;
+}
+.position{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+footer img{
+    height: 600px;
+}

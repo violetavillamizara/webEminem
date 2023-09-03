@@ -1,0 +1,27 @@
+body{
+  background-color: #808F85;
+}
+
+.card{
+  margin: 50px;
+  justify-content: cen
+}
+
+
+/* Estilo para el elemento dl */
+dl {
+    margin: 20px 0; /* Margen superior e inferior */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+  
+  /* Estilo para los elementos dt (títulos) */
+dt {
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Margen superior */
+}
+  
+  /* Estilo para los elementos dd (descripciones) */
+dd {
+    margin-left: 20px; /* Sangría a la izquierda */
+    margin-top: 5px; /* Margen superior */
+}
