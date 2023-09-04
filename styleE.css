@@ -6,56 +6,74 @@ body{
   margin: 50px;
 }
 
+main{
+  display: flex;
+}
 
+.him{
+  font-size: 1.5rem;
+  margin-top: 90px;
+  padding: 60px;
+}
 .awards {
-  background-color: #f4f4f4;
+  background-color: #6b0f1a;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
 .awards h2 {
-  font-size: 24px;
+  font-size: 3rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #dce0d9;
 }
 
 .awards dl {
   margin-left: 20px;
+  font-size: 1.6rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inline-list{
+  display: inline-block;
+  vertical-align: top;
 }
 
 .awards dt {
   font-weight: bold;
   margin-top: 10px;
+  color: #808f80;
 }
 
 .awards dd {
   margin: 5px 0;
-  color: #666;
+  color: white;
 }
 
 .records {
-  background-color: #eaeaea;
+  background-color: #808f80;
   padding: 20px;
   border-radius: 10px;
 }
 
 .records h2 {
-  font-size: 24px;
+  font-size: 3rem;
   margin-bottom: 10px;
-  color: #333;
+  color: #31081f;
 }
 
 .records ul {
+  font-size: 1.5rem;
   list-style-type: disc;
   margin-left: 20px;
 }
 
 .records li {
   margin: 5px 0;
-  color: #666;
+  color: white;
 }
 
 .records li strong {
-  color: #333;
+  color: #31081f;
 }
