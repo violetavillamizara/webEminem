@@ -7,13 +7,33 @@ body{
     padding: 0px;
 }
 
+/* Anchura del scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Fondo del scrollbar */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Estilo del thumb (la parte desplazable) */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+/* Hover sobre el thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: #6B0F1A;
+}
+
 header {
     background-color: black;
     color: white;
     text-align: center;
     font-size: 1.6rem;
     padding: 20px;
-    }
+}
 
 nav ul {
     list-style: none;
@@ -24,7 +44,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-right: 20px;
-    }
+}
 
 nav a {
     color: blanchedalmond;

@@ -1,28 +1,35 @@
-body{
-    background-color: #DCE0D9;
-}
-
 .content{
     position: relative;
     display: inline-block;
     text-align: center;
 }
+
+.content img{
+    width: 100vw;
+}
 .text{
     position: absolute;
     top: 60px;
-    left: 700px;
+    left: 800px;
     color: white;
     font-size: 5rem;
 }
 .position{
     color: white;
+    opacity: 0.7;
     font-size: 2rem;
     position: absolute;
-    top: 30%;
-    left: 70%;
+    top: 26%;
+    left: 71%;
     transform: translate(-50%, -50%);
+}
+
+.text-info{
+    padding: 60px;
+    font-size: 1.8rem;
 }
 
 footer img{
     height: 600px;
+    margin-top: 20px;
 }
