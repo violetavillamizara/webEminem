@@ -1,0 +1,106 @@
+.first-view {
+    height: 100vh;
+    background-image: url(./images/eminem.jpg);
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+.main-text h2 {
+    position: relative;
+    left: 50%;
+    top: 40%;
+    color: white;
+    font-size: 10rem;
+    font-weight: 600;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif
+}
+
+.main-text p {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 50%;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.main-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    width: 150px;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-button:hover {
+    background-color: blanchedalmond;
+}
+
+.multimedia {
+    background-color: #56070C;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+iframe {
+    border-radius: 5px;
+}
+
+.clip h2{
+    font-weight: 600;
+    text-align: center;
+}
+
+.clip,
+.music {
+    flex: 1;
+}
+
+.multimedia .clip,
+.multimedia .music {
+    font-size: 1.6rem;
+}
+
+.music{
+    margin-left: 5%;
+}
+
+.music img {
+    width: 25%;
+}
+
+.song img{
+    border-radius: 7px;
+}
+
+.song img:hover{
+    border-radius: 7px;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1) rotate(0deg);
+}
+
+.listening {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 30px;
+}
+
+.listening img {
+    height: 300px;
+    margin: 20px;
+}
+
+.socialmedia img {
+    height: 50px;
+    margin: 20px;
+}

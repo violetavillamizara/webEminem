@@ -13,7 +13,8 @@ h1{
 .content{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
 }
 
 #images:hover{

@@ -1,16 +1,11 @@
 .content{
-    position: relative;
-    display: inline-block;
+    background-image: url(./images/black.JPG);
+    background-position: center bottom;
+    height: 500px;
     text-align: center;
 }
 
-.content img{
-    width: 100vw;
-}
 .text{
-    position: absolute;
-    top: 60px;
-    left: 800px;
     color: white;
     font-size: 5rem;
 }
@@ -18,10 +13,6 @@
     color: white;
     opacity: 0.7;
     font-size: 2rem;
-    position: absolute;
-    top: 26%;
-    left: 71%;
-    transform: translate(-50%, -50%);
 }
 
 .text-info{
